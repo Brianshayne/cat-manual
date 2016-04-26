@@ -3,7 +3,7 @@ name:               "Feline Instruction Manual"
 description:        "Cats are hard"
 
 # jekyll-seo-tag, see: http://www.rubydoc.info/gems/jekyll-seo-tag/1.2.0
-url:                "//brianshayne.github.io/cat-manual"
+url:                "//brianshayne.github.io/"
 author:             "Donohue"
 twitter:
   username:         "dianbronohue"
@@ -12,7 +12,7 @@ twitter:
 #    publisher:      1234
 
 # URL
-baseurl:            "//brianshayne.github.io/cat-manual"
+baseurl:            "/cat-manual"
 #baseurl:            "" #For Root Domain
 permalink:          /:year/:month/:day/:title/
 
@@ -22,7 +22,7 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "/about/"
+    href:           "about/"
   - name:           "Manual"
     href:           ""
 

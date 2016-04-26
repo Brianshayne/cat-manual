@@ -11,7 +11,12 @@ layout: default
     {% endfor %}
   </nav>
 </header>
-<div class="content list">
+<div class ="content list">
+<h2> Cats are hard. This is an instruction manual. </h2>
+<img src="imgs/download.png" class="container"></img>
+</div>
+
+{% comment %}<div class="content list">
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% else %}
@@ -20,10 +25,12 @@ layout: default
     <h2 class="list-post-title">
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <div class="list-post-date">
+    <p> {{ post.content }} </p>
+  <!-- no date  <div class="list-post-date">
       <time>{{ post.date | date_to_string }}</time>
-    </div>
+    </div> -->
   </div>
 {% endfor %}
 {% endif %}
 </div>
+{% endcomment %}
