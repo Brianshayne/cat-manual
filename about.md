@@ -1,6 +1,6 @@
 ---
 title: About
-permalink: {{ site.baseurl }}/about/
+permalink: /about/
 ---
 
 <p class="lead">Shit about this project will go here.</p>
