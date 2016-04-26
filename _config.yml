@@ -22,7 +22,7 @@ markdown:           kramdown
 # Navigation
 nav:
   - name:           "About"
-    href:           "{{ site.baseurl }}/about/"
+    href:           "/about/"
   - name:           "Manual"
     href:           ""
 
